@@ -8,7 +8,6 @@ public class Coordinats {
     private int y;
 
     public Coordinats(int x, int y) {
-
         this.x = x;
         this.y = y;
     }
@@ -16,8 +15,12 @@ public class Coordinats {
     public int getX() {
         return x;
     }
-
     public int getY() {
         return y;
+    }
+
+    public void setCoordinats(int x, int y){
+        this.x = x;
+        this.y = y;
     }
 }
